@@ -3,7 +3,7 @@
 ## Project Overview
 C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or "C with Classes". 
 The goal of these modules is to introduce us to Object-Oriented Programming.
-`C++ - Module 01` containts the exercises of Module 01 from C++ modules. Some of the concepts Memory allocation, pointers to members, references, switch statement
+`C++ - Module 01` containts the exercises of Module 01 from C++ modules. Some of the concepts are as follows: Memory allocation, pointers to members, references, switch statement
 
 ## Getting Started
 
