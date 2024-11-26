@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   mysed.cpp                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: plashkar <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: plashkar <plashkar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/28 00:33:15 by plashkar          #+#    #+#             */
-/*   Updated: 2024/07/28 00:54:44 by plashkar         ###   ########.fr       */
+/*   Updated: 2024/11/26 11:11:08 by plashkar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,9 @@ bool	isFileEmpty(std::ifstream& file)
  * std::string::find(target) will find the first occurance of the word,
  * and return the position at the beginning.
  * std::string::insert(pos, length) will deleted length number of characters after the pos.
+ * std::string::npos is a constant static member of the std::string class in C++.
+ * It represents a value that is returned when a search operation (such as find) fails
+ * to locate the desired substring.
  * @brief it reads the whole file into a string and then loops through it
  * replacing any occurances of the target string with the replacement
  * since it reads the whole file at the beggning its not recommended with huge files.
@@ -72,7 +75,7 @@ int		findAndReplace(char* fileName, char* strToFind, char* strToReplace)
 		std::cerr << RED << "Error creating the file: " << newFileName << RESET << std::endl;
 		return (1);
 	}
-	
+
 	std::string target = strToFind;
 	std::string replacement = strToReplace;
 	replaceContent(inputfile, outputfile, target, replacement);

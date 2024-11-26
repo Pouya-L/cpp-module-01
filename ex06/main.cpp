@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: plashkar <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: plashkar <plashkar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/28 15:50:15 by plashkar          #+#    #+#             */
-/*   Updated: 2024/07/28 16:49:43 by plashkar         ###   ########.fr       */
+/*   Updated: 2024/11/26 11:46:02 by plashkar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ int main(int argc, char **argv)
 		std::cout << RED << "Error: Wrong number of arguments" << RESET << std::endl
 					<< "USAGE: ./harlFilter <level>" << std::endl
 					<< "The level should be one of the following: "
-					<< "[ DEBUG ] [ INFO ] [ WARNINIG] [ ERROR ]" << std::endl;
+					<< "[ DEBUG ] [ INFO ] [ WARNINIG ] [ ERROR ]" << std::endl;
 					return (1);
 	}
 	else {

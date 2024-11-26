@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Harl.hpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: plashkar <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: plashkar <plashkar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/28 14:10:17 by plashkar          #+#    #+#             */
-/*   Updated: 2024/07/28 15:55:27 by plashkar         ###   ########.fr       */
+/*   Updated: 2024/11/26 11:27:02 by plashkar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,7 @@
 class Harl;
 
 /**
- * This defines a tpye alias HarlFunction for a pointer to a member function
+ * This defines a type alias HarlFunction for a pointer to a member function
  * of the Harl class that takes no arguments and returns void.
  * In simpler terms, HarlFunction is now a type that represents a pointer to
  * any member function of the Harl class with the signature void functionName().
